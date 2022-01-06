@@ -4,6 +4,12 @@ body{
     width: 1000px;
 }
 
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: #393E46;
+}
+
 #tenor-gift{
     margin-top: 30px;
     margin-left: 10px;
@@ -30,7 +36,14 @@ img{
 #button-tenor{
     margin-left: 100px;
     margin-top: 10px;
+    background-color: #FFE05D;
+    border: 2px solid #393E46;
 }
 #input-tenor{
     width: 50%;
+    border: 3px solid #FFF8CD;
+}
+
+#button-tenor:hover{
+    background-color: #FF7777;
 }
