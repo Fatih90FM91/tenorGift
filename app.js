@@ -87,10 +87,12 @@ btnTenor.addEventListener('click',function(){
     search_url = "https://g.tenor.com/v1/search?q=" + search_term + "&key=" +
     apikey + "&limit=" + inputNumber;
 
-    if(inputNumber==0 || inputNumber>0){
+    if(inputNumber==0 ){
 
         search_url="";
 
+    } else if( inputNumber > 0 &&  inputValue=="" ){
+        search_url="";
     }
     
     
